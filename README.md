@@ -4,6 +4,23 @@ Example repo on exploring the use of Terraform with LocalStack
 
 ## Setup
 
+### Install tflint
+
+```shell
+brew install tflint
+tflint -v
+
+# To install the AWS tflint plugin specified in the .tflint.hcl file
+tflint --init
+```
+
+### Install tfsec
+
+```shell
+brew install tfsec
+tfsec -v
+```
+
 ### Install LocalStack CI
 
 `python3 -m pip install --user localstack`
