@@ -10,7 +10,7 @@ Example repo on exploring the use of Terraform with LocalStack
 
 ### Setting up local region and credentials to run LocalStack
 
-Configure AWS test environment variables and add the --endpoint-url=<localstack-url> flag to your aws CLI invocations. For example:
+Configure AWS test environment variables and add the --endpoint-url=<localstack_url> flag to your aws CLI invocations. For example:
 
 ```shell
 export AWS_ACCESS_KEY_ID="test"
