@@ -4,6 +4,7 @@ data "archive_file" "index" {
   output_path = var.output_path
 }
 
+# tfsec:ignore:aws-lambda-enable-tracing
 resource "aws_lambda_function" "lambda" {
   filename         = data.archive_file.index.output_path
   function_name    = var.function_name

@@ -1,3 +1,4 @@
+# tfsec:ignore:aws-api-gateway-no-public-access
 module "api_gw_lambda" {
   source = "../../modules/api_gw_lambda"
 
